@@ -22,7 +22,6 @@ public class CoupleTree {
             while (true) {
                 if (n.key == key)
                     delete(n.key);
-                    return false;
 
                 parent = n;
 
