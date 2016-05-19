@@ -121,12 +121,10 @@ public class CoupleTree {
         }
 
         setBalance(a, b);
-
         return b;
     }
 
     private Node rotateRight(Node a) {
-
         Node b = a.left;
         b.parent = a.parent;
 
@@ -147,7 +145,6 @@ public class CoupleTree {
         }
 
         setBalance(a, b);
-
         return b;
     }
 
